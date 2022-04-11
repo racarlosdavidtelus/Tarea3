@@ -24,11 +24,9 @@ app.use((req, res, next) => {
 
 //Routes
 app.use('/',require('./routes/index'));
+app.use('/version',require('./routes/version'));
 app.use('/user',require('./routes/user'));
 
 app.listen(port,()=>{
     console.log('Server listen on port: ', port);
-    console.log(process.env.REGION)
-    console.log(process.env.ACCESSKEYID)
-      console.log(process.env.SECRETACCESSKEY) 
 }); 
