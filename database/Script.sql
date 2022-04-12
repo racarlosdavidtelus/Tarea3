@@ -5,5 +5,3 @@ create table user(
     password varchar(50),
     rol varchar(50)
 );
-
-ENGINE = INNODB;

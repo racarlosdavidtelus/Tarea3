@@ -77,6 +77,6 @@ spec:
   selector:
     app: backend-deployment
   ports:
-    - port: 2000
+    - port: 80
       targetPort: 2000
       protocol: TCP
