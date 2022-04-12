@@ -73,7 +73,7 @@ metadata:
   labels:
     app: backend-deployment
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: backend-deployment
   ports:
